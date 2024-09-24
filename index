@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- Meta description with appropriate branding -->
+    <meta
+      name="description"
+      content="Azubi Cloud Institute Nexus - Cloud learning platform for next-generation professionals"
+    />
+    
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Title updated to reflect branding -->
+    <title>Azubi Cloud Institute Nexus Frontend</title>
+
+    <!-- Additional meta tags or resources can be added here, such as analytics or custom fonts -->
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this application.</noscript>
+    
+    <div id="root"></div>
+
+    <!--
+      This HTML file is the main entry point for the Azubi Cloud Institute Nexus frontend application.
+      The application will be built and run in a Docker container for consistent deployment across environments.
+      During the build process, all necessary scripts and assets will be injected into this template.
+      
+      To start local development, use `npm start` or `yarn start`.
+      For production, build with `npm run build` or `yarn build` before deploying the Docker container.
+    -->
+  </body>
+</html>
